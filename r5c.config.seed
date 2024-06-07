@@ -24,6 +24,8 @@ CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 CONFIG_PACKAGE_collectd-mod-ping=y
 CONFIG_PACKAGE_collectd-mod-thermal=y
 
+# 自定义
+CONFIG_PACKAGE_luci-app-openvpn=y
 
 CONFIG_PACKAGE_kmod-gpu-lima=y
 CONFIG_PACKAGE_kmod-ath9k-htc=y
@@ -39,3 +41,5 @@ CONFIG_PACKAGE_wpad-basic-wolfssl=y
 CONFIG_DRIVER_11AC_SUPPORT=y
 CONFIG_DRIVER_11N_SUPPORT=y
 CONFIG_DRIVER_11W_SUPPORT=y
+
+
